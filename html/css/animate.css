@@ -1,0 +1,10 @@
+/*放大倍数1.15倍*/
+.zoom-in{
+    -webkit-transform: scale(1.15);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 750ms;
+    -moz-transform: scale(1.15);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 750ms;
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+.banner{
+    background: url("http://demo.cssmoban.com/cssthemes3/cpts_407_qx/images/funn.jpg");
+    min-height: 800px;
+    background-size: cover;
+    position: relative;
+}
+.sider{
+    width: 250px;
+    height: 600px;
+    background: darkviolet;
+    opacity: 0.5;
+}
+img.zoom-img:hover {
+    -webkit-transform: scale(1.15);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 750ms;
+    -moz-transform: scale(1.15);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 750ms;
+    overflow: hidden;
+}
